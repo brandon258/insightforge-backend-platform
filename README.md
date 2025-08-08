@@ -2,7 +2,7 @@
 
 A scalable, secure microservice platform for AI-generated reports and insights. Built using C++ for high-performance processing, Node.js for secure routing, and IAM integration for RBAC and access control.
 
-## 💡 Use Case
+## Use Case
 
 Simulates a system where:
 
@@ -11,7 +11,7 @@ Simulates a system where:
 - Reports are stored and retrieved based on access control
 - Auth0 or other IAM providers are used to validate tokens at the gateway level
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 insightforge-backend-platform/
@@ -39,24 +39,16 @@ insightforge-backend-platform/
 └── .github/workflows/         # CI/CD
 ```
 
-## 🧠 Key Features
+## Key Features
 
-- C🔐 Secure API Gateway with JWT validation
-- 🧮 C++ microservice for report processing
-- 📊 Report service for persistence and retrieval
-- 🧩 IAM integration using Auth0 or pluggable solution
-- 📦 Infrastructure-as-Code with Terraform + Docker
-- 🚀 CI/CD with GitHub Actions
+- Secure API Gateway with JWT validation
+- C++ microservice for report processing
+- Report service for persistence and retrieval
+- IAM integration using Auth0 or pluggable solution
+- Infrastructure-as-Code with Terraform + Docker
+- CI/CD with GitHub Actions
 
-## 🛠 Tech Stack
-
-- C++ 17+
-- Node.js or Python (gateway)
-- Auth0 (or OPA / Keycloak as alt. IAM)
-- Terraform, Docker, GitHub Actions
-- PostgreSQL or DynamoDB (optional)
-
-## 🛠 Tech Stack
+## Tech Stack
 
 - C++ 17+
 - Node.js or Python (gateway)
@@ -64,7 +56,15 @@ insightforge-backend-platform/
 - Terraform, Docker, GitHub Actions
 - PostgreSQL or DynamoDB (optional)
 
-## 📚 Documentation
+## Tech Stack
+
+- C++ 17+
+- Node.js or Python (gateway)
+- Auth0 (or OPA / Keycloak as alt. IAM)
+- Terraform, Docker, GitHub Actions
+- PostgreSQL or DynamoDB (optional)
+
+## Documentation
 
 - [`docs/architecture-diagram.png`](docs/architecture-diagram.png)
 - [`docs/use-cases.md`](docs/use-cases.md)
